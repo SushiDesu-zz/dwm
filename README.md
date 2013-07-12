@@ -8,5 +8,5 @@ All patches were hand patched using various sources and diffed in a queue. This 
 
 **todo:**
 * clean up systray
-* powerline_theme - add implicit color defs. for powerline glyphs + clean up code
+* clean up powerline_theme
 * remove unused functions and dependencies

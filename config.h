@@ -4,29 +4,26 @@
 /* appearance */
 static const char font[]            = "Menlo for Powerline:size=9";
 
-#define NUMCOLORS 19
+
+#define NUMCOLORS 14
 static const char colors[NUMCOLORS][ColLast][21] = {
 	/* border   foreground  background   index|hex  description */
-	{ "#282A2E", "#bcbcbc", "#585858" }, // 00|01 = normal
-	{ "#005f00", "#005f00", "#afd700" }, // 01|02 = selected
-	{ "#282A2E", "#ffaf00", "#585858" }, // 02|03 = urgent
-	{ "#282A2E", "#ffffff", "#585858" }, // 03|04 = occupied
-	{ "#282a2e", "#bcbcbc", "#585858" }, // 04|05 = plsym open 
-	{ "#282a2e", "#585858", "#afd700" }, // 05|06 = plsym closed norm
-	{ "#282a2e", "#afd700", "#585858" }, // 06|07 = plsym closed sel
-	{ "#282a2e", "#585858", "#303030" }, // 07|08 = tags \ lt plsym norm
-	{ "#282a2e", "#afd700", "#303030" }, // 08|09 = tags \ lt plsym sel
-	{ "#282a2e", "#bcbcbc", "#303030" }, // 09|0a = clock
-	{ "#282a2e", "#000000", "#d0d0d0" }, // 10|0b = systray
-	{ "#282a2e", "#d0d0d0", "#585858" }, // 11|0c = systray separator
-	{ "#268bd2", "#9e9e9e", "#303030" }, // 12|0d = status titles
-	{ "#282a2e", "#d7ff00", "#303030" }, // 13|0e = status text
-	{ "#282a2e", "#ffaf00", "#303030" }, // 14|0f = status urgent
-	{ "#282a2e", "#bcbcbc", "#585858" }, // 15|10 = battery title
-	{ "#282a2e", "#d7ff00", "#585858" }, // 16|11 = battery text
-	{ "#282a2e", "#ffaf00", "#585858" }, // 17|12 = battery urgent
-	{ "#282a2e", "#585858", "#303030" }, // 18|13 = battery plsym
+	{ "#282a2e", "#bcbcbc", "#585858" }, // 00|01 = normal
+	{ "#268bd2", "#005f00", "#afd700" }, // 01|02 = selected
+	{ "#282a2e", "#ffaf00", "#585858" }, // 02|03 = urgent
+	{ "#282a2e", "#ffffff", "#585858" }, // 03|04 = occupied
+	{ "#282a3e", "#585858", "#303030" }, // 04|05 = layout symbol
+	{ "#282a2e", "#bcbcbc", "#303030" }, // 05|06 = clock
+	{ "#282a2e", "#000000", "#d0d0d0" }, // 06|07 = systray
+	{ "#268bd2", "#9e9e9e", "#303030" }, // 07|08 = status titles
+	{ "#282a2e", "#d7ff00", "#303030" }, // 08|09 = status text
+	{ "#282a2e", "#ffaf00", "#303030" }, // 09|0a = status urgent
+	{ "#282a2e", "#bcbcbc", "#585858" }, // 10|0b = battery title
+	{ "#282a2e", "#d7ff00", "#585858" }, // 11|0c = battery text
+	{ "#282a2e", "#ffaf00", "#585858" }, // 12|0d = battery urgent
+	{ "#282a2e", "#585858", "#303030" }, // 13|0e = battery plsym
 };
+
 
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int gappx     = 2;        /* gap pixel between windows */
